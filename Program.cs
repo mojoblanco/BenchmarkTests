@@ -9,7 +9,7 @@ namespace BenchmarkTests
         {
             Console.WriteLine("Welcome to benchmark tests!");
 
-            var mvs = BenchmarkRunner.Run<Md5VsSha256>();
+            var benchmark = BenchmarkRunner.Run<RestApi>();
         }
     }
 }
